@@ -11,11 +11,49 @@
         <h1>Style Guide</h1>
         <p>A standard for code formatting that <a href='https://www.epicodus.com/'>Epicodus</a> students may find helpful</p>
       </div>
-      <ul class='rules'>
-        <li>Always use single-quotes if possible.</li>
-        <li>Always use spaces, not tabs, for indentation.</li>
-        <li>Use 2 spaces for each indent</li>
-      </ul>
+      <div class='file-type'>
+        <h1>General</h1>
+        <p>These rules apply to all file types unless a more specific rule is applicable.</p>
+        <ul class='rules'>
+          <li>Always use single-quotes if possible.</li>
+          <li>Always use spaces, not tabs, for indentation.</li>
+          <li>Use 2 spaces for each indent</li>
+        </ul>
+      </div>
+      <div class='file-type'>
+        <h1>HTML</h1>
+        <ul class='rules'>
+          <li>
+            Use lowercase for all code.
+            <div class='example'>
+              <p>Example:</p>
+              <code>
+                &lt;a href=&#39;http://webpage_address_using_lowercase.com&#39; class=&#39;lowercase-class-name&#39;&gt;My Link&lt;/a&gt;<br>
+                &lt;img src=&#39;/filePath/to/Access/case-sensitive/file_system.png&#39; alt=&#39;My Caption&#39;&gt;
+              </code>
+            </div>
+          </li>
+          <li>Do <span class='not'>not</span> use in-line styling.</li>
+          <li>Do <span class='not'>not</span> include spaces on either side of '=' in tags.</li>
+          <li>Do <span class='not'>not</span> use spaces (other than in tandem with other whitespace) between content and tags.</li>
+        </ul>
+      </div>
+      <div class='file-type'>
+        <h1>JavaScript</h1>
+        <ul class='rules'>
+          <li>Always use <code>lowerCamelCase</code> for identifiers.</li>
+          <li>
+            <span class='not'>Never</span> exclude semicolons. (i.e. Do <span class='not'>not</span> use newlines to 'insert' your semicolons for you.)
+            <div class='example'>
+              <p>Example:</p>
+              <code>
+                var declaredVariable = value;<br>
+                // below is an array literal that should not be interpretted as an index of `value`<br>
+                [1].forEach(function(element) { sum += element; });
+              </code>
+          </li>
+
+        </ul>
     </div>
   </body>
 </html>
