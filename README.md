@@ -15,6 +15,7 @@ This webpage contains a style guide for formatting project files. The project al
 ## Technologies Used
 
 HTML
+
 CSS
 
 ## Known Bugs
