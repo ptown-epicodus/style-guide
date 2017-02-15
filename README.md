@@ -10,10 +10,12 @@ This webpage contains a style guide for formatting project files. The project al
 
 ## Features
 * Do v. Do NOT examples
+
 ### Categories
 * Indentation
 * Spacing
 * Capitalization
+
 ### File types
 * HTML
 * JavaScript
