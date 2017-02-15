@@ -8,6 +8,19 @@
 
 This webpage contains a style guide for formatting project files. The project also stores template files of various types.
 
+## Features
+* Do v. Do NOT examples
+### Categories
+* Indentation
+* Spacing
+* Capitalization
+### File types
+* HTML
+* JavaScript
+* PHP
+* JSON
+* CSS
+
 ## Setup
 
 1. Open `index.html` in web browser.
